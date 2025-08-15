@@ -1,0 +1,134 @@
+/*google fonts*/
+
+/*noto serif font*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*inter font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*body style*/
+
+body{
+    padding: 50px 150px;
+}
+
+/*navbar styles*/
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav-links{
+    display: flex;
+    height: 60px;
+    padding: 22px 0;
+    gap: 48px;
+    text-align: right;
+}
+
+/*banner styles*/
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    align-items: last baseline;
+}
+
+.banner-content{
+    max-width: 570px;
+}
+
+.banner-heading{
+    color: #000;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-head-color{
+    color: #E95A08;
+}
+
+.banner-description{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/*main styles*/
+
+.card-description{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.card-heading{
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-head-color{
+    color: #E95A08;
+}
+
+.card-details{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.card1{
+    color: #111;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card2{
+    color: #111;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.card-btn{
+    padding: 26px 50px;
+    color: #ffffff;
+    background: #E95A08;
+    border-style: none;
+}
+
