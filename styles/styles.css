@@ -132,3 +132,45 @@ body{
     border-style: none;
 }
 
+/*responsive*/
+
+@media screen and (max-width: 576px) {
+    .body{
+        padding: 0;
+    }
+    .nav, .nav-links, .banner{
+        flex-direction: column;
+    }
+
+    .banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    align-items: center;
+}
+
+    .nav-links{
+        height: 20px;
+        padding: 5px 0;
+        gap: 10px;
+        text-align: center;
+}
+
+    .banner-image{
+        width: 400px;
+        height: 400px;
+    }
+
+    .banner-content{
+        max-width: 400px;
+    }
+
+    .banner-heading, .card-heading{
+        font-size: 25px;
+        font-weight: 400px;
+    }
+
+    .card{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
